@@ -12,3 +12,8 @@ uals(asyncua) - lists ocp ua address space like ls
 uacall
 node(opc) - Bsic OPC elemente, can be data, object, function accessible via NodeId.
 OCP UP - Open source protocol used for working with industrial systems SCADA/ICS/IoT to expose sensors. 
+Javascript - Linguagem interpretada,. muito utilizada para frontend e desenvolvimento Web. Geralmente roda no navegador.
+Node(Javascript) - Ambiente de execução que permite desenvolvimento Backend fora do navegador. I/O assíncrono e arquitetura orientada a eventos. Não é um servidor completo mas pode entregar requests HTTP, por simular o servidor. Contudo não suporta roteamento dentre outro recursos que um webserver dedicado como apache nginx fornece.
+React(Javascript) - Biblioteca para frontened utilizada no js, muito utilizada para componentes gráficos.
+I/O assíncrono - Significa que a aplicação continua a executar sua função enquanto o ocorro o imput e o outpu(requisição de recursos, por exemplo).
+CVE-2025-55182 - React2Shell(Vulnerabilidade) Vulnerabilidade que atinge a maneira que o React faz o parsing
