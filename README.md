@@ -17,3 +17,13 @@ Node(Javascript) - Ambiente de execução que permite desenvolvimento Backend fo
 React(Javascript) - Biblioteca para frontened utilizada no js, muito utilizada para componentes gráficos.
 I/O assíncrono - Significa que a aplicação continua a executar sua função enquanto o ocorro o imput e o outpu(requisição de recursos, por exemplo).
 CVE-2025-55182 - React2Shell(Vulnerabilidade) Vulnerabilidade que atinge a maneira que o React faz o parsing
+ldap - Protocolo que ajuda a acessar e manter data. ldap pode ser utilizado para acessar data sobre usuários como usernames. Trabalha com vários tipos de Diretórios como um DC normal de Windows.
+ldapsearch - tool for windows that you can use to query using the ldap protocol. Common flags: -x (simple authentication instead of sasl), -H (indicates Host), -D (bind Domain Name, can be empty ''), -w (indicates password for the bind DN, can be empty ''), -b (base DN)
+SMB - Server Message Block - protocolo de comunicação utilizado para compartilhar arquivos, printes, portas seriais e outros recursos. Basea-se na relação cliente-servidor. Suporta user authenticação,
+smbpass - aplicação que gerencia logins no protocolo smb, pode ser utilizada para mudar senhas e etc
+evilwin-rm
+reg(windows) - command line tool for interacting with windows registry
+save(windows) - saves a registry hive to a file
+hive(windows) - database file of windows registry
+Windows Registry - database hieraquica que guarda informação sobre usuários Windows
+sasl - 
