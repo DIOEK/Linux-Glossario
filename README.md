@@ -25,5 +25,5 @@ evilwin-rm
 reg(windows) - command line tool for interacting with windows registry
 save(windows) - saves a registry hive to a file
 hive(windows) - database file of windows registry
-Windows Registry - database hieraquica que guarda informação sobre usuários Windows
-sasl - 
+mcp - Windows Registry - database hieraquica que guarda informação sobre usuá
+Mcp - Model context protocol - Allows ai to connecto to local data sources like files, code 
