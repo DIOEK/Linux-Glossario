@@ -27,3 +27,4 @@ save(windows) - saves a registry hive to a file
 hive(windows) - database file of windows registry
 mcp - Windows Registry - database hieraquica que guarda informação sobre usuá
 Mcp - Model context protocol - Allows ai to connecto to local data sources like files, code 
+opt(linux) - optional third party software packages
