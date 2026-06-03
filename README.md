@@ -28,3 +28,6 @@ hive(windows) - database file of windows registry
 mcp - Windows Registry - database hieraquica que guarda informação sobre usuá
 Mcp - Model context protocol - Allows ai to connecto to local data sources like files, code 
 opt(linux) - optional third party software packages
+ss (linux)- socket statistics lista sockets de rede e verifica quais processos estão a executar em quais portas. Pode aceitar flags para mostrar portas TCP (-t), UDP(-u), no modo listening (-l),  processo associado ao port (-p), endereços ip e numero de porta (-n).
+ps (linux) - Process Status - Comando que lista processos rodando e informações sobre eles
+Jupyter - Aplicação web de código aberto que permite criar e executar documentos interativos contendo código, texto, fórmulas matemáticas, visualizações e resultados num único ficheiro.
