@@ -31,3 +31,8 @@ opt(linux) - optional third party software packages
 ss (linux)- socket statistics lista sockets de rede e verifica quais processos estão a executar em quais portas. Pode aceitar flags para mostrar portas TCP (-t), UDP(-u), no modo listening (-l),  processo associado ao port (-p), endereços ip e numero de porta (-n).
 ps (linux) - Process Status - Comando que lista processos rodando e informações sobre eles
 Jupyter - Aplicação web de código aberto que permite criar e executar documentos interativos contendo código, texto, fórmulas matemáticas, visualizações e resultados num único ficheiro.
+cron - serviço (daemon) que executa scritps ou processos rotineiramente de tempo em tempo. systemctl status cron ou crond. Sempre está rodando em segundo plano.
+cronjob - file que que o cron executa geralemnte vai vir acompanhada de weekly ou algo assim. Ficam guardadas em /etc/cronjobs
+incron - como um cron mas a condiocional que da trigger no gatilho é quando algo ocorre em algum file por exemplo um file ser criado por exemplo. podemos achar eles na pasta /etc/incron.d 
+touch - touch grass
+touch(linux) - command that either creates an aempty file or 
