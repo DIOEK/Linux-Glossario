@@ -35,4 +35,8 @@ cron - serviço (daemon) que executa scritps ou processos rotineiramente de temp
 cronjob - file que que o cron executa geralemnte vai vir acompanhada de weekly ou algo assim. Ficam guardadas em /etc/cronjobs
 incron - como um cron mas a condiocional que da trigger no gatilho é quando algo ocorre em algum file por exemplo um file ser criado por exemplo. podemos achar eles na pasta /etc/incron.d 
 touch - touch grass
-touch(linux) - command that either creates an aempty file or 
+touch(linux) - cria uma file vazia ou então da "update nas timestamps de acesso e modificação da file" 
+stat - mostra metadata da file como tamanho, timestamps de modificação e mudança acesso etc
+spool - local onde algo espera para ser processado por outra coisa
+log - Um log é um registo cronológico de eventos produzidos por um sistema, aplicação ou serviço. Um log é o "diário" de um programa.
+
