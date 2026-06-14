@@ -39,4 +39,8 @@ touch(linux) - cria uma file vazia ou então da "update nas timestamps de acesso
 stat - mostra metadata da file como tamanho, timestamps de modificação e mudança acesso etc
 spool - local onde algo espera para ser processado por outra coisa
 log - Um log é um registo cronológico de eventos produzidos por um sistema, aplicação ou serviço. Um log é o "diário" de um programa.
+.war(java) - Web Application Archive - formato de pacote utilizado para distribuir e implementar aplicações web Java em servidores de aplicações como Apache Tomcat  Wildfly, Jetty ou GlassFish
+proxy(reverse proxy web) - serviço que recebe os requests e encaminha eles ao server http, atua como sujeito intermédio na conversa entre server e client EZ: Apache Nginx
+xml - eXtensible Markup Language - usada para guardar, estruturar e transportar data em um formato que seja legível para humanos e máquinas. Extensible(usuário pode crar suas próprias marcas Estruturada(funciona de maneira hierarquica, utilizável em diferentes plataformas e auto descritível a tag mostra a data que contém.
+markup language - linguagens com fim de estruturação, não lógica. Seu trabalho é estruturar, aprensentar e formatar. Ex: HTML XML MD
 
