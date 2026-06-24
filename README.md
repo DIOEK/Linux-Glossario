@@ -83,4 +83,20 @@ xml - eXtensible Markup Language. Markup language used to store, structure, and 
 
 FTP - File Transfer Protocol. Tool provided by TCP/IP protocol. It allows remote transfer of files and folders between computers, where one acts as a server and the other acts as a client. Default port is 21 and commands are very, very similar to bash commads. It can be accessed bia curl and other tools of http protocols. https://www.geeksforgeeks.org/computer-science-fundamentals/file-transfer-protocol-ftp/ https://linuxize.com/cheatsheet/ftp/
 
+Path Traversal - Also known as Directory Traversal or "dot-dot-slash" attack. A vulnerability that allows an attacker to access files or directories outside the application's intended directory by manipulating file paths. It commonly uses sequences such as "../" (Linux) or "..\" (Windows) to navigate up the filesystem hierarchy and access sensitive files. The attack is not limited to the web root directory and may allow access to any file that the application's permissions permit. Source: https://owasp.org/www-community/attacks/Path_Traversal
+
+Domain - A logical grouping of computers, users, and other network resources that are centrally managed under a common administration and security policy. In Microsoft environments, domains are typically managed through Active Directory and allow centralized authentication, authorization, and resource sharing across the network. Source: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
+
+DC - Domain Controller. A server that maintains directory service information for a domain, including users, authentication credentials, groups, computers, and enterprise security policies. Domain Controllers host Active Directory Domain Services (AD DS) and authenticate users and computers within the domain. Source: https://www.techtarget.com/searchwindowsserver/definition/domain-controller
+
+AD - Active Directory. Microsoft's directory service for Windows domains. It stores and manages information about network resources such as users, computers, groups, printers, and security policies, and provides authentication and authorization services across the network. Source: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
+
+Immutability - The property of an object or dataset that prevents it from being modified or deleted after creation. In backup systems, immutability ensures that backups cannot be altered, overwritten, or removed during a defined retention period, protecting them from accidental deletion, malicious activity, and ransomware attacks. Source: https://www.ibm.com/think/topics/immutable-backups
+
+Veeam - Data protection, backup, disaster recovery, and ransomware recovery software company. Its products are used to create, manage, replicate, and restore backups for physical, virtual, cloud, and hybrid environments. Source: https://www.veeam.com
+
+Backup - A copy of data, system state, configuration, or application data stored separately from the original source to enable recovery in the event of data loss, corruption, hardware failure, accidental deletion, or cyberattacks. Source: https://www.ibm.com/topics/backup
+
+Hydra - Commonly known as THC Hydra. Open-source password auditing and credential brute-forcing tool capable of testing username and password combinations against numerous network services and protocols, including SSH, FTP, SMB, RDP, HTTP authentication, LDAP, and others. Frequently used during penetration testing and security assessments to identify weak credentials. Source: https://github.com/vanhauser-thc/thc-hydra
+
 
