@@ -1,46 +1,86 @@
-# Linux-Glossario
-Glossário de termos e comandos linux
+# Glossario
+Linux terms and commands glossary
 
-venv - Virtual enviroment. Virtual Python environment that uses it's own Python interpreter, installed packages and pip configuration. Used when you need different versions of different software, for example you nesse flask x.x for a project and flask y.x for another, you should create a different venv for each.
-bin - tradicional directory in linux used to storage executable programs and scripts
-activate - shell script that is created with a venv and is used to activate it
-source - Shell built-in command. When we execute a script, a new subprocess is created for it. Any enviroment changes dissapear when the script ends. But activating a virtual envinment needs to keep this change, such as changes in PATH, setting VIRTUAL_ENV etc... So source runs the script inside the current shell session only, so it does not intervene with other sessions. Other way to write source is ". venv/bin/activate" where . is shorthand for source.
-asyncua - Pyhton Library used for dealing with OPC UA and it's associated systems. Allows fo control of these systems such as read/write. Has python interface and also CLI controlls.
-uaread(asyncua) - reads a value of a node in a ocp server
-uawrite(asyncua) - writes a value to a node in ocp server
-uals(asyncua) - lists ocp ua address space like ls
-uacall
-node(opc) - Bsic OPC elemente, can be data, object, function accessible via NodeId.
-OCP UP - Open source protocol used for working with industrial systems SCADA/ICS/IoT to expose sensors. 
-Javascript - Linguagem interpretada,. muito utilizada para frontend e desenvolvimento Web. Geralmente roda no navegador.
-Node(Javascript) - Ambiente de execução que permite desenvolvimento Backend fora do navegador. I/O assíncrono e arquitetura orientada a eventos. Não é um servidor completo mas pode entregar requests HTTP, por simular o servidor. Contudo não suporta roteamento dentre outro recursos que um webserver dedicado como apache nginx fornece.
-React(Javascript) - Biblioteca para frontened utilizada no js, muito utilizada para componentes gráficos.
-I/O assíncrono - Significa que a aplicação continua a executar sua função enquanto o ocorro o imput e o outpu(requisição de recursos, por exemplo).
-CVE-2025-55182 - React2Shell(Vulnerabilidade) Vulnerabilidade que atinge a maneira que o React faz o parsing
-ldap - Protocolo que ajuda a acessar e manter data. ldap pode ser utilizado para acessar data sobre usuários como usernames. Trabalha com vários tipos de Diretórios como um DC normal de Windows.
-ldapsearch - tool for windows that you can use to query using the ldap protocol. Common flags: -x (simple authentication instead of sasl), -H (indicates Host), -D (bind Domain Name, can be empty ''), -w (indicates password for the bind DN, can be empty ''), -b (base DN)
-SMB - Server Message Block - protocolo de comunicação utilizado para compartilhar arquivos, printes, portas seriais e outros recursos. Basea-se na relação cliente-servidor. Suporta user authenticação,
-smbpass - aplicação que gerencia logins no protocolo smb, pode ser utilizada para mudar senhas e etc
-evilwin-rm
-reg(windows) - command line tool for interacting with windows registry
-save(windows) - saves a registry hive to a file
-hive(windows) - database file of windows registry
-mcp - Windows Registry - database hieraquica que guarda informação sobre usuá
-Mcp - Model context protocol - Allows ai to connecto to local data sources like files, code 
-opt(linux) - optional third party software packages
-ss (linux)- socket statistics lista sockets de rede e verifica quais processos estão a executar em quais portas. Pode aceitar flags para mostrar portas TCP (-t), UDP(-u), no modo listening (-l),  processo associado ao port (-p), endereços ip e numero de porta (-n).
-ps (linux) - Process Status - Comando que lista processos rodando e informações sobre eles
-Jupyter - Aplicação web de código aberto que permite criar e executar documentos interativos contendo código, texto, fórmulas matemáticas, visualizações e resultados num único ficheiro.
-cron - serviço (daemon) que executa scritps ou processos rotineiramente de tempo em tempo. systemctl status cron ou crond. Sempre está rodando em segundo plano.
-cronjob - file que que o cron executa geralemnte vai vir acompanhada de weekly ou algo assim. Ficam guardadas em /etc/cronjobs
-incron - como um cron mas a condiocional que da trigger no gatilho é quando algo ocorre em algum file por exemplo um file ser criado por exemplo. podemos achar eles na pasta /etc/incron.d 
+venv - Virtual Environment. Python virtual environment that uses its own Python interpreter, installed packages, and pip configuration. Used to isolate dependencies between projects. For example, one project may use Flask 2.x while another uses Flask 3.x without conflicts. Source: https://docs.python.org/3/library/venv.html
+
+bin (linux) - Traditional Linux directory used to store executable programs and scripts.
+
+activate (venv) - Script created inside a Python virtual environment used to activate it and configure environment variables such as PATH and VIRTUAL_ENV.
+
+source - Shell built-in command used to execute a script inside the current shell session. When a script is executed normally, a subprocess is created and any environment changes disappear when it exits. The source command prevents this behavior, allowing changes such as those made by activate to remain in the current session. Equivalent to ". venv/bin/activate". Source: https://www.gnu.org/software/bash/manual/bash.html
+
+asyncua - Python library for communicating with OPC UA systems. Allows reading, writing, browsing the address space, and invoking methods on OPC UA servers. Source: https://opcua-asyncio.readthedocs.io
+
+uaread (asyncua) - CLI tool from the AsyncUA package used to read the value of an OPC UA node.
+
+uawrite (asyncua) - CLI tool from the AsyncUA package used to write a value to an OPC UA node.
+
+uals (asyncua) - CLI tool from the AsyncUA package used to list the OPC UA address space, similar to the ls command.
+
+uacall (asyncua) - CLI tool used to invoke methods exposed by an OPC UA server.
+
+node (opc ua) - Basic OPC UA element. A node can represent an object, variable, method, type, or reference and is identified by a NodeId.
+
+OPC UA - Open Platform Communications Unified Architecture. Industrial communication protocol widely used in SCADA, ICS, and IoT environments to exchange data between devices, sensors, controllers, and applications. Source: https://opcfoundation.org/about/opc-technologies/opc-ua/
+
+Javascript - Interpreted programming language widely used for frontend and backend web development. Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+Node.js (Javascript) - JavaScript runtime environment built on Google's V8 engine. Allows JavaScript applications to run outside the browser using an event-driven architecture and asynchronous I/O. While it can serve HTTP requests, it does not fully replace dedicated web servers such as Apache or Nginx. Source: https://nodejs.org
+
+React (Javascript) - JavaScript library used to build user interfaces through reusable components. Source: https://react.dev
+
+Asynchronous I/O - Execution model where an application can continue performing other tasks while waiting for input/output operations such as file access, network communication, or database queries.
+
+CVE-2025-55182 - No widely recognized public documentation was found for this CVE associated with the name React2Shell. The reference should be verified before being included in the glossary.
+
+ldap - Lightweight Directory Access Protocol. Protocol used to access and manage directory services such as Active Directory. Source: https://datatracker.ietf.org/doc/html/rfc4511
+
+ldapsearch - Command-line tool used to query LDAP directories. Common flags: -x (simple authentication), -H (LDAP server URI), -D (Bind DN), -w (Bind DN password), -b (Base DN). Source: https://www.openldap.org/software/man.cgi?query=ldapsearch
+
+SMB - Server Message Block. Network protocol used to share files, printers, and other resources. Based on a client-server architecture and supports user authentication. Source: https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview
+
+smbpasswd - Samba utility used to manage SMB user passwords. Source: https://www.samba.org/samba/docs/current/man-html/smbpasswd.8.html
+
+evil-winrm - Remote administration tool for Windows systems using the WinRM protocol. Source: https://github.com/Hackplayers/evil-winrm
+
+reg (windows) - Command-line utility used to query and modify the Windows Registry. Source: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg
+
+save (windows) - reg subcommand used to export a registry hive to a file.
+
+hive (windows) - Logical structure or file containing a section of the Windows Registry database.
+
+MCP (Model Context Protocol) - Open protocol that enables AI models to communicate with external data sources, tools, and services. Source: https://modelcontextprotocol.io
+
+opt (linux) - Directory typically used to install optional or third-party software packages.
+
+ss (linux) - Socket Statistics. Utility used to display network sockets and associated processes. Common flags include TCP sockets (-t), UDP sockets (-u), listening sockets (-l), associated processes (-p), and numeric addresses/ports (-n). Source: https://man7.org/linux/man-pages/man8/ss.8.html
+
+ps (linux) - Process Status. Command used to display information about running processes. Source: https://man7.org/linux/man-pages/man1/ps.1.html
+
+Jupyter - Open-source web application used to create and execute interactive documents containing code, text, mathematical formulas, visualizations, and output in a single file. Source: https://jupyter.org
+
+cron - Daemon responsible for executing scheduled tasks periodically. Typically runs continuously in the background. Source: https://man7.org/linux/man-pages/man8/cron.8.html
+
+cronjob - Scheduled task executed by the cron service. Definitions are usually stored in crontab files or directories such as /etc/cron.d.
+
+incron - Utility similar to cron but triggered by filesystem events using inotify. It can execute actions when files or directories are created, modified, or deleted. Source: https://inotify.aiken.cz/incron.html
+
 touch - touch grass
-touch(linux) - cria uma file vazia ou então da "update nas timestamps de acesso e modificação da file" 
-stat - mostra metadata da file como tamanho, timestamps de modificação e mudança acesso etc
-spool - local onde algo espera para ser processado por outra coisa
-log - Um log é um registo cronológico de eventos produzidos por um sistema, aplicação ou serviço. Um log é o "diário" de um programa.
-.war(java) - Web Application Archive - formato de pacote utilizado para distribuir e implementar aplicações web Java em servidores de aplicações como Apache Tomcat  Wildfly, Jetty ou GlassFish
-proxy(reverse proxy web) - serviço que recebe os requests e encaminha eles ao server http, atua como sujeito intermédio na conversa entre server e client EZ: Apache Nginx
-xml - eXtensible Markup Language - usada para guardar, estruturar e transportar data em um formato que seja legível para humanos e máquinas. Extensible(usuário pode crar suas próprias marcas Estruturada(funciona de maneira hierarquica, utilizável em diferentes plataformas e auto descritível a tag mostra a data que contém.
-markup language - linguagens com fim de estruturação, não lógica. Seu trabalho é estruturar, aprensentar e formatar. Ex: HTML XML MD
+
+touch (linux) - Command used to create empty files or update file access and modification timestamps. Source: https://man7.org/linux/man-pages/man1/touch.1.html
+
+stat - Command used to display file metadata such as size, permissions, ownership, and timestamps. Source: https://man7.org/linux/man-pages/man1/stat.1.html
+
+spool - Temporary storage location where data waits to be processed by another service. Common examples include print queues, email queues, and scheduled task queues.
+
+log - Chronological record of events generated by a system, service, or application. Acts as the "journal" of a program.
+
+.war (java) - Web Application Archive. Package format used to distribute Java web applications for deployment on application servers such as Apache Tomcat, WildFly, Jetty, or GlassFish. Source: https://docs.oracle.com/javaee/7/tutorial/packaging003.htm
+
+proxy (reverse proxy web) - Intermediate service that receives client requests and forwards them to backend servers. Common examples include Apache HTTP Server, Nginx, and HAProxy. Source: https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+
+xml - eXtensible Markup Language. Markup language used to store, structure, and transport data in a format readable by both humans and machines. Characteristics include extensibility, hierarchical structure, portability, and self-describing tags. Source: https://www.w3.org/XML/
+
+FTP - File Transfer Protocol. Tool provided by TCP/IP protocol. It allows remote transfer of files and folders between computers, where one acts as a server and the other acts as a client. Default port is 21 and commands are very, very similar to bash commads. It can be accessed bia curl and other tools of http protocols. https://www.geeksforgeeks.org/computer-science-fundamentals/file-transfer-protocol-ftp/ https://linuxize.com/cheatsheet/ftp/
+
 
