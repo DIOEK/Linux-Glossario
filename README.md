@@ -99,4 +99,10 @@ Backup - A copy of data, system state, configuration, or application data stored
 
 Hydra - Commonly known as THC Hydra. Open-source password auditing and credential brute-forcing tool capable of testing username and password combinations against numerous network services and protocols, including SSH, FTP, SMB, RDP, HTTP authentication, LDAP, and others. Frequently used during penetration testing and security assessments to identify weak credentials. Source: https://github.com/vanhauser-thc/thc-hydra
 
+NFS - Network File System - Protocol used so a user can access files and directories store locally at another computer, they must be inside the same network even if not locally. Follows a client-server architecture. The NFS server, exports(shares) one or more directories. The client requests acess to an exported directory. The server verifies whether the client is authorized to mount the share. Applications can then read, write and modify files on the remote server as if stored locally. https://cmdref.net/os/linux/disk/nfs.html
+
+Mounting - The act of making a filesystem or storage device accessible through a directory in an operating system. can be done via GUI or even command line. Works differently for each protocol, like SMB(Windows) NFS.
+
+showmount - command used for querying NFS servers for shared(exported) directories.
+
 
