@@ -105,4 +105,5 @@ Mounting - The act of making a filesystem or storage device accessible through a
 
 showmount - command used for querying NFS servers for shared(exported) directories.
 
+Runtime error - 
 
