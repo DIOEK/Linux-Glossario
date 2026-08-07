@@ -107,5 +107,7 @@ showmount - command used for querying NFS servers for shared(exported) directori
 
 Runtime error - A runtime error is an error that happens when a program is already running, after it has been compiled. Basically a "bug". The trick is if a program is working fine, but it requires input of some sort and you don't provide it, or provide the wrong sort of input, then this type of error may appear. https://www.geeksforgeeks.org/dsa/runtime-errors/
 
-SSRF (Server Side Request Forgery) - 
+SSRF (Server Side Request Forgery) - Technique where the attacker might cause the server to connect to inside only services. Basically having unauthorized access to server side services. https://portswigger.net/web-security/ssrf
+
+API (Aplication Programming Interface) - Basically the thing that allows for software to communicate with server and other software, via REST or whatever. Always usefull to check for /api directories e subdirectories sucha as /api/version /api/v1(2,3, etc) 
 
