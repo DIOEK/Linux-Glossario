@@ -105,5 +105,7 @@ Mounting - The act of making a filesystem or storage device accessible through a
 
 showmount - command used for querying NFS servers for shared(exported) directories.
 
-Runtime error - 
+Runtime error - A runtime error is an error that happens when a program is already running, after it has been compiled. Basically a "bug". The trick is if a program is working fine, but it requires input of some sort and you don't provide it, or provide the wrong sort of input, then this type of error may appear. https://www.geeksforgeeks.org/dsa/runtime-errors/
+
+SSRF (Server Side Request Forgery) - 
 
