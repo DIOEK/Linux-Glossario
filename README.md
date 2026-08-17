@@ -111,3 +111,5 @@ SSRF (Server Side Request Forgery) - Technique where the attacker might cause th
 
 API (Aplication Programming Interface) - Basically the thing that allows for software to communicate with server and other software, via REST or whatever. Always usefull to check for /api directories e subdirectories sucha as /api/version /api/v1(2,3, etc) 
 
+SID (Security Identifier) - 
+
