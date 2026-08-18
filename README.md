@@ -111,5 +111,6 @@ SSRF (Server Side Request Forgery) - Technique where the attacker might cause th
 
 API (Aplication Programming Interface) - Basically the thing that allows for software to communicate with server and other software, via REST or whatever. Always usefull to check for /api directories e subdirectories sucha as /api/version /api/v1(2,3, etc) 
 
-SID (Security Identifier) - 
+SID (Security Identifier) - Number that represents anything that can be acuthenticated by a windows operating system, like users, computers groups accounts. Each time the user logs, the system creates a SID for the user. There are also well know SID's that specify well known groups and users. An example of a SID is: S-1-5-21-2748195630-3917268451-1053847296-4827. S means this string is a SID. 1 indicates the revision level which is the format that the SID is using, 1 is the standart. 21-2748195630-3917268451-1053847296 is the domain identifier, meaning that it identifies the domain that it comes from, fi not inside a specific domain, de indeitifier points to the machine domain. 4827 is the RIP (Relative Identifier), and is specific to the entity that is being identified. https://www.majorgeeks.com/content/page/what_is_a_security_identifier_(sid)_and_how_to_find_it.html https://www.majorgeeks.com/content/page/what_is_a_security_identifier_(sid)_and_how_to_find_it.html
+
 
