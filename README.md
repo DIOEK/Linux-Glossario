@@ -31,8 +31,6 @@ React (Javascript) - JavaScript library used to build user interfaces through re
 
 Asynchronous I/O - Execution model where an application can continue performing other tasks while waiting for input/output operations such as file access, network communication, or database queries.
 
-CVE-2025-55182 - No widely recognized public documentation was found for this CVE associated with the name React2Shell. The reference should be verified before being included in the glossary.
-
 ldap - Lightweight Directory Access Protocol. Protocol used to access and manage directory services such as Active Directory. Source: https://datatracker.ietf.org/doc/html/rfc4511
 
 ldapsearch - Command-line tool used to query LDAP directories. Common flags: -x (simple authentication), -H (LDAP server URI), -D (Bind DN), -w (Bind DN password), -b (Base DN). Source: https://www.openldap.org/software/man.cgi?query=ldapsearch
