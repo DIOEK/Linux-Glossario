@@ -113,4 +113,7 @@ SID (Security Identifier) - A unique identifier used by Windows to identify secu
 
 INI file - is a configuration file for computer software that consists of plain text with a structure and syntax comprising key–value pairs organized in sections. Can hold de default config for a lot of thing inside said software. Some software can use conf, config or cnf extensions instead. https://en.wikipedia.org/wiki/INI_file
 
+telnet - TELNET is a type of protocol that enables one computer to connect to the local computer. It is used as a standard TCP/IP protocol for virtual terminal service which is provided by ISO. The computer which starts the connection is known as the local computer. The computer which is being connected to i.e. which accepts the connection known as the remote computer. During telnet operation, whatever is being performed on the remote computer will be displayed by the local computer. Telnet operates on a client/server principle. https://www.geeksforgeeks.org/computer-networks/introduction-to-telnet/
+
+telnet (command) - Telnet serves as a command line interface (CLI) tool that allows logging in and communication with a system through a TCP/IP network. Users can issue commands on a remote machine as Telnet users can log into a machine over a TCP/IP network with the use of Telnet addresses (e.g. telnet://user@hostname). https://www.geeksforgeeks.org/linux-unix/telnet-command-in-linux/
 
