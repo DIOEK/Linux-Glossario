@@ -115,5 +115,12 @@ INI file - is a configuration file for computer software that consists of plain 
 
 telnet - TELNET is a type of protocol that enables one computer to connect to the local computer. It is used as a standard TCP/IP protocol for virtual terminal service which is provided by ISO. The computer which starts the connection is known as the local computer. The computer which is being connected to i.e. which accepts the connection known as the remote computer. During telnet operation, whatever is being performed on the remote computer will be displayed by the local computer. Telnet operates on a client/server principle. https://www.geeksforgeeks.org/computer-networks/introduction-to-telnet/
 
+impacket - Python3 module to easily build and dissect network protocols. Impacket is a collection of Python3 classes focused on providing access to network packets. Impacket allows Python3 developers to craft and decode network packets in simple and consistent manner. It includes support for low-level protocols such as IP, UDP and TCP, as well as higher-level protocols such as NMB and SMB. Impacket is highly effective when used in conjunction with a packet capture utility or package such as Pcapy. Packets can be constructed from scratch, as well as parsed from raw data. Furthermore, the object oriented API makes it simple to work with deep protocol hierarchies https://www.kali.org/tools/impacket/
+
 telnet (command) - Telnet serves as a command line interface (CLI) tool that allows logging in and communication with a system through a TCP/IP network. Users can issue commands on a remote machine as Telnet users can log into a machine over a TCP/IP network with the use of Telnet addresses (e.g. telnet://user@hostname). https://www.geeksforgeeks.org/linux-unix/telnet-command-in-linux/
+
+Scheduled Task - bsically cronjobs for windows check Mailing for usefull commands.
+
+.odt files - libreoffice files.
+
 
