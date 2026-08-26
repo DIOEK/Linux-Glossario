@@ -123,4 +123,5 @@ Scheduled Task - bsically cronjobs for windows check Mailing for usefull command
 
 .odt files - libreoffice files.
 
+socket - network theme for an endpoint that let's two programs conversate with eachother over the network.
 
