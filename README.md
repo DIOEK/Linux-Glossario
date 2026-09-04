@@ -113,7 +113,7 @@ SID (Security Identifier) - A unique identifier used by Windows to identify secu
 
 INI file - is a configuration file for computer software that consists of plain text with a structure and syntax comprising key–value pairs organized in sections. Can hold de default config for a lot of thing inside said software. Some software can use conf, config or cnf extensions instead. https://en.wikipedia.org/wiki/INI_file
 
-telnet - TELNET is a type of protocol that enables one computer to connect to the local computer. It is used as a standard TCP/IP protocol for virtual terminal service which is provided by ISO. The computer which starts the connection is known as the local computer. The computer which is being connected to i.e. which accepts the connection known as the remote computer. During telnet operation, whatever is being performed on the remote computer will be displayed by the local computer. Telnet operates on a client/server principle. https://www.geeksforgeeks.org/computer-networks/introduction-to-telnet/
+telnet - TELNET is a type of protocol that enables local computer to connect to the remote computer. It is used as a standard TCP/IP protocol for virtual terminal service which is provided by ISO. The computer which starts the connection is known as the local computer. The computer which is being connected to i.e. which accepts the connection known as the remote computer. During telnet operation, whatever is being performed on the remote computer will be displayed by the local computer. Telnet operates on a client/server principle. https://www.geeksforgeeks.org/computer-networks/introduction-to-telnet/ can be turned into powershell with poershell(command)
 
 impacket - Python3 module to easily build and dissect network protocols. Impacket is a collection of Python3 classes focused on providing access to network packets. Impacket allows Python3 developers to craft and decode network packets in simple and consistent manner. It includes support for low-level protocols such as IP, UDP and TCP, as well as higher-level protocols such as NMB and SMB. Impacket is highly effective when used in conjunction with a packet capture utility or package such as Pcapy. Packets can be constructed from scratch, as well as parsed from raw data. Furthermore, the object oriented API makes it simple to work with deep protocol hierarchies https://www.kali.org/tools/impacket/
 
@@ -124,4 +124,30 @@ Scheduled Task - bsically cronjobs for windows check Mailing for usefull command
 .odt files - libreoffice files.
 
 socket - network theme for an endpoint that let's two programs conversate with eachother over the network.
+
+wget - free software that asslows for downloading web data. Supports http, https and ftp. https://pt.wikipedia.org/wiki/Wget
+
+strings - command line interface tool that allows us to extract strings from something such as an executable, pdf or image file. https://www.commandinline.com/strings-command-cheat-sheet/
+
+zip2john - extracts info from a zaip file and converts it to a crackcable format by john there are many*2john tool, depending on the zip types.
+
+John the ripper - decrypting tool that work on the cpu. Tkaes severeal formats. https://techearl.com/john-the-ripper-cheat-sheet
+
+.pst file - outlook data  file. Can contain emails and other data files.
+
+readpst - file that reads pst files in unix systems.
+
+runas - tool that allows oneuser in windows ro run a process as if he were another user, such as admin. Opens a new cmd windows that the given command is executed. -https://procedimento.com.br/artigo/como-usar-o-comando-runas-no-windows-exemplos-de-script
+
+whoami - command line tool that reveals info about current user and group https://windowsreport.com/whoami-windows/
+
+Write-Output - echo for windows 
+
+type - cat for windows
+
+dpapi - data protection API - is a simple cryptographic application programming interface available as a built-in component in Windows 2000 and later versions of Microsoft Windows operating systems. In theory, the Data Protection API can enable symmetric encryption of any kind of data; in practice, its primary use in the Windows operating system is to perform symmetric encryption of asymmetric private keys, using a user or system secret as a significant contribution of entropy. A detailed analysis of DPAPI inner-workings was published in 2011 by Bursztein et al. Dpapi abuse is doccumented here : https://4l3xbb.github.io/Cyb3rBook/002-PENTESTING/WINDOWS-PENTESTING/DPAPI-ABUSE
+
+.lnk - An LNK file is a Windows shortcut, which points to and is used to open another file, folder, or application. It contains information about the object to which it points, including the object's type, location, and filename. You can create a shortcut to a file, folder, or application by right-clicking that object and selecting Create shortcut. (In Windows 11, you must first select Show more options.) -  https://fileinfo.com/extension/lnk We can get a lot info from them using: https://github.com/HarmJ0y/pylnker
+
+
 
